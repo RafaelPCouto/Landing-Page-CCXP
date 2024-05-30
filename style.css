@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: #FFD900;
+}
+
+.header__image {
+    margin: 27px 58px;
+}
+
+.main {
+    display: grid;
+}
+
+.main__container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.main__container--section-1 {
+    text-align: center;
+    background-color: #514988;
+    
+}
+
+.main__title {
+    text-transform: uppercase;
+    color: #FFD900;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 80px;
+    gap: 0px;
+}
