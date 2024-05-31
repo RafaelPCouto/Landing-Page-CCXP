@@ -12,56 +12,56 @@
         <img src="images/logo.svg" alt="logo CCXP" class="header__image">
     </header>
 
-    <main class="main">
+    <main class="main__container">
+        <div class="main__container--section-1">
+            <h1 class="main__title">reviva o épico</h1>
+            <p class="main__data">de 01 a 04 de dezembro</p>
 
-        <div class="main__container">
-            <section class="main__container--section-1">
-                <h1 class="main__title">reviva o épico</h1>
-                <h3>de 01 a 04 de dezembro</h3>
+            <p class="main__paragraph">Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
+        </div>
 
-                <p class="main__paragraph">Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
-            </section>
+        <div class="main__container--section-2">
+            <div class="container__timer">
 
-            <section class="main__container--section-2">
-                <div class="container">
-                    <div class="container__timer">
-                        <div>
-                            <h1 id="day" class="timeValues">00</h1>
-                        </div>
-                        <div>
-                            <h1 id="hour" class="timeValues">00</h1>
-                        </div>
-                        <div>
-                            <h1 id="minute" class="timeValues">00</h1>
-                        </div>
-                        <div>
-                            <h1 id="second" class="timeValues">00</h1>
-                        </div>
-                    </div>
-                    <h3 class="section__title-2">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
-                </div>
-                <video controls loop width="800" height="500px" class="video">
+                <p id="day" class="timeValues">00</p>
+                <p id="hour" class="timeValues">00</p>
+                <p id="minute" class="timeValues">00</p>
+                <p id="second" class="timeValues">00</p>
+
+            </div>
+
+            <div class="container__title">
+                <p class="section__warning">PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
+            </div>
+
+            <div class="video">
+                <video controls loop>
                     <source src="videos/Arlequina.mp4" type="video/mp4">
                 </video>
-            </section>
+            </div>
         </div>
+    </main>
         
-        <section class="main__section--3">
-    
-            <h3 class="sec3--title">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
-            
-            <div   class="sec3--block">
+    <section class="section">
+
+        <div class="section__buy">
+            <div>
+                <h3 class="section__title">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+            </div>
+            <div>
                 <img src="images/quinta-feira.png" alt="icone quinta-feira">
                 <img src="images/sexta-feira.png" alt="icone sexta-feira">
                 <img src="images/sabado.png" alt="icone sabado">
                 <img src="images/domingo.png" alt="icone domingo">
-
-                <button type="button" class="button">garanta o seu!</button>
             </div>
-    
-    
-        </section>
-    </main>
+        </div>
+
+        
+    <div>
+        <button type="button" class="button">garanta o seu!</button>
+    </div>
+
+    </section>
 
     
     <script src="script.js"></script>
